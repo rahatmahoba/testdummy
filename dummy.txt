@@ -1,0 +1,9 @@
+Hello its a test 
+git --version
+git help config
+git cofig --help
+mkdir test
+cd test
+git init
+git add dummy.txt
+
