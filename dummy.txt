@@ -6,4 +6,16 @@ mkdir test
 cd test
 git init
 git add dummy.txt
+git commit -m "adding a text file"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "adding a text file"
+git config --global user.username rahatmahoba
+git remote add origin https://github.com/rahatmahoba/testdummy.git
+git push origin master
+git diff
+git status
+git commit "dummy.txt"      -------Only single file
+git commit -a               ----- All files 
+git commit -a -m " Hello it is second commit"
 
