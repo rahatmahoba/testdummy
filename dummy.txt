@@ -23,4 +23,7 @@ git branch                 ----- show branch list
 git checkout mastertest    ----- change branch to mastertest
 git rm --cached dummy.txt  ------- removes file from staging area
 git rm dummy.txt   ---------- Delete the file
+git clone -b master https://github.com/rahatmahoba/testdummy.git master   ----clone the master branch in master folder
+
+
 
