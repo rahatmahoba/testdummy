@@ -11,11 +11,16 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "adding a text file"
 git config --global user.username rahatmahoba
-git remote add origin https://github.com/rahatmahoba/testdummy.git
+git remote add origin https://github.com/rahatmahoba/testdummy.git  ---- origin is remote repo name given by us locally
 git push origin master
 git diff
 git status
 git commit "dummy.txt"      -------Only single file
 git commit -a               ----- All files 
 git commit -a -m " Hello it is second commit"
+git branch mastertest      ----- create new brach
+git branch                 ----- show branch list
+git checkout mastertest    ----- change branch to mastertest
+git rm --cached dummy.txt  ------- removes file from staging area
+git rm dummy.txt   ---------- Delete the file
 
